@@ -2,7 +2,6 @@
 
 Random rnd = new Random();
 int number = rnd.Next(100, 1000);
-//Console.WriteLine(number);
 
 string newNumber = Convert.ToString(number);
 newNumber = newNumber.Remove(1, 1);
